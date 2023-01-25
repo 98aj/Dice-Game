@@ -6,8 +6,8 @@ let changeImage2 = document.querySelector("img.img2");
 
 // Roll Dice
 
-changeImage1.setAttribute("src", "/images/dice"+randomNumber1+".png");
-changeImage2.setAttribute("src", "/images/dice"+randomNumber2+".png");
+changeImage1.setAttribute("src", "./images/dice"+randomNumber1+".png");
+changeImage2.setAttribute("src", "./images/dice"+randomNumber2+".png");
 
 
 // To select the winner
